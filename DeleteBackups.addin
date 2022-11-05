@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command DeleteBackups</Text>
+    <Description>Some description for DeleteBackups</Description>
+    <Assembly>DeleteBackups.dll</Assembly>
+    <FullClassName>DeleteBackups.Command</FullClassName>
+    <ClientId>f239c758-b8a2-4f43-9efc-bf6d652ba089</ClientId>
+    <VendorId>edu.osu.pare</VendorId>
+    <VendorDescription>Just Tiffany from FITS</VendorDescription>
+  </AddIn>
+	<AddIn Type="Command">
+		<Text>Delete those pesky backup files</Text>
+		<Description>Some description for DeleteBackups</Description>
+		<Assembly>DeleteBackups.dll</Assembly>
+		<FullClassName>DeleteBackups.CommandDeleteBackups</FullClassName>
+		<ClientId>9C4D9448-832E-4D45-97E1-C13D4BAD2FA0</ClientId>
+		<VendorId>edu.osu.pare</VendorId>
+		<VendorDescription>Just Tiffany from FITS</VendorDescription>
+	</AddIn>
+  <AddIn Type="Application">
+    <Name>Application DeleteBackups</Name>
+    <Assembly>DeleteBackups.dll</Assembly>
+    <FullClassName>DeleteBackups.App</FullClassName>
+    <ClientId>136c8fdd-f95a-4388-bc27-504f8bb9cd05</ClientId>
+    <VendorId>edu.osu.pare</VendorId>
+    <VendorDescription>Just Tiffany from FITS</VendorDescription>
+  </AddIn>
+</RevitAddIns>
